@@ -12,8 +12,8 @@ for i in range(T):
     
     a, b = max(ls), min(ls)
     
-    ls.remove(max(ls))
-    ls.remove(min(ls))
+    ls.remove(a)
+    ls.remove(b)
 
     c = ls[0]
 
