@@ -1,6 +1,5 @@
 # 14654. 신용카드 만들기 2
 
-
 for i in range(1,int(input())+1):
     card = list(input())
     for j in card:
