@@ -1,4 +1,4 @@
-T = int(input())
+T = int(input()) ## 못품
 
 for i in range(1, T+1):
     num_list = []
