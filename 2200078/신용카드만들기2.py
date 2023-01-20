@@ -14,16 +14,9 @@ from collections import Counter
 
 # 카드 번호가 주어졌을 때 해당 번호로 신용카드를 만들 수 있는지 판별하는 프로그램을 작성하시오.
 def isValid(numbers):
-    c1 = 0
-    c2 = 0
-    i = 0
-    for chr in numbers:
-        if chr in '1234567890':
-            i += 1
-            if i == 1 and chr in '34569':
-               c1 = 1
-    if i == 16:
-        c2 = 1
+    numbers = numbers.lstrip('-')
+    c1 = numbers[0] in '34569'
+    c2 = (len(numbers)-numbers.count('-') == 16)
     return c1*c2
 
 # 첫 번째 줄에 테스트 케이스의 수 T가 주어진다.

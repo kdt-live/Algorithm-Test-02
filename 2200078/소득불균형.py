@@ -9,12 +9,10 @@ from collections import Counter
 
 # n명의 사람의 소득이 주어졌을 때 이 중 평균 이하의 소득을 가진 사람들의 수를 출력해야 한다.
 def getBelowAvg(incomes, n):
-    av_income = sum(incomes)/n
-    lw_income_r = 0
-    for x in incomes:
-        if x <= av_income:
-            lw_income_r +=1
-    return lw_income_r
+    frq_table = Counter(incomes) # frequency table
+    mean = sum([v*frq_table[v] for v in frq_table.keys()])/n
+    n_low = sum([frq_table[v] for v in frq_table.keys() if v <= mean ])
+    return n_low
 
 
 # 첫 번째 줄에 테스트 케이스의 수 T가 주어진다.
