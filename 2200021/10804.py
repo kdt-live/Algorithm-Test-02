@@ -11,3 +11,4 @@ for t in range(1,int(input())+1):
     tr = str.maketrans(before,after)
     print(f'#{t} {s.translate(tr)}')
 
+
