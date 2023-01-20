@@ -10,3 +10,4 @@ for t in range(1,int(input())+1):
         if li.count(i) == 1 or li.count(i) == 3:
             print(f'#{t} {i}')
             break
+        

@@ -10,4 +10,4 @@ for t in range(1,int(input())+1):
     after = 'dbqp'
     tr = str.maketrans(before,after)
     print(f'#{t} {s.translate(tr)}')
-    
+
