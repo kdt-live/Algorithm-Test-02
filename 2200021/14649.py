@@ -14,3 +14,4 @@ for t in range(1,int(input())+1):
             total += nums[i]     
     n = (10 - (total % 10))%10
     print(f'#{t} {n}')
+    

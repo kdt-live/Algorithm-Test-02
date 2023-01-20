@@ -13,3 +13,4 @@ for t in range(1,int(input())+1):
         if i <= average:
             cnt += 1
     print(f'#{t} {cnt}')
+    
