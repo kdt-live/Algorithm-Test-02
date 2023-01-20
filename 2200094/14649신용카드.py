@@ -9,6 +9,8 @@ for t in range(1, T+1):
     for x in range(1, 15, 2):
         even += number[x]
         result = odd + even
-        if result % 10 == 0:
-            print(0)
-        # 마지막 숫자를 구하는 방법을 모르겠다
+    if result % 10 == 0:
+        print(f'#{t} {0}')
+    else:
+        print(f'#{t} {10 - result % 10}')
+        
