@@ -14,3 +14,4 @@ for t in range(1,int(input())+1):
             cnt += 1
     print(f'#{t} {cnt}')
     
+    

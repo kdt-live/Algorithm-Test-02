@@ -15,3 +15,4 @@ for t in range(int(input())):
             max_i = i
     print(f'#{t_c} {max_i}')
     
+    
