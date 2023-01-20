@@ -1,4 +1,4 @@
-T = int(input())
+T = int(input()) ## 못품
 number = ['3', '4', '5', '6', '9']
 
 for i in range(1, T+1):
