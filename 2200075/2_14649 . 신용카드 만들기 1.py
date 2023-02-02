@@ -11,7 +11,8 @@ for t in range(1,T + 1) :
 
     for i in range(1, len(numbers), 2) : # 짝수
         sum_number += numbers[i]
+
     if (sum_number % 10 == 0) :
-        print(f'#{t} {sum_number % 10}')
+        print(f'#{t} 0')
     else :
-        print(f'#{t} {round(sum_number + 5, -1) - sum_number}')
+        print(f'#{t} {10 - (sum_number % 10)}')
