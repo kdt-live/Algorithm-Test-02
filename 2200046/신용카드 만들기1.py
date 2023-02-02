@@ -13,6 +13,6 @@ def luhn(n):
 
 t = int(input())
 
-for i in range(t):
+for j in range(t):
     number = list(map(int, input().split()))
-    print(f'#{i + 1} {luhn(number)}')
+    print(f'#{j + 1} {luhn(number)}')
