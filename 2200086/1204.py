@@ -11,6 +11,4 @@ for i in range(1, T+1):
         else:
             dict1[j] += 1
     a = sorted(dict1.items(), key = lambda x :x[1], reverse=True)
-    print(a[0][0])
-   
-    
+    print(f'#{i}', a[0][0])
