@@ -24,8 +24,8 @@
 4. `add` `commit` `push` 수행
 5. 깃허브 원격 저장소 접속 후 `Pull Request` 수행 [아래 이미지 참고]
 
-![](assets/pr_1.png)
+![](https://github.com/kdt-live/Algorithm-Test-01/raw/main/assets/pr_1.png)
 
-![](assets/pr_2.png)
+![](https://github.com/kdt-live/Algorithm-Test-01/raw/main/assets/pr_3.png)
 
-![](assets/pr_3.png)
+![](https://github.com/kdt-live/Algorithm-Test-01/raw/main/assets/pr_3.png)
